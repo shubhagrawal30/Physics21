@@ -110,7 +110,7 @@ def getVOTvalues(filename):
 Same comment as before about consolidating the floating parts into a "__main__" segment
 """
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     url = "http://nesssi.cacr.caltech.edu/cgi-bin/getcssconedbid_release2.cgi"
 
     value = {"Name" : "Her X-1", "DB" : "photcal", "OUT" : "html", "SHORT" : "short"}
