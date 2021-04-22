@@ -1,3 +1,17 @@
+"""
+Physics 21, Assignment 1, Version 1.0
+Shubh Agrawal
+Class of 2022
+
+This .py file is my submission for Caltech's Physics 21.
+It accessses the online astrophysics data set for the Catalina survey,
+scraps data in html or VOTable format, and plots the data.
+"""
+
+import urllib.request
+import matplotlib.pyplot as plt
+from astropy.io.votable import parse_single_table
+
 # To allow for multiple figure to be printed in the same run
 figure_no = 0
 def plot(x, y, filename):
